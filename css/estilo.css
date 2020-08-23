@@ -1,0 +1,29 @@
+body{}
+
+header{
+}
+
+
+nav{
+	overflow: hidden;
+}
+
+
+section{
+
+}
+
+
+
+footer a{
+	margin: 0 10px 0 10px;
+}
+
+#logo{
+	height: 64px;
+	margin:0 20px 0 20px;
+}
+
+#eventos{
+	margin-top: 0px;
+}

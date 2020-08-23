@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Proyecto Final HTML5 SDQ">
+  	<meta name="keywords" content="HTML5,CSS3,SDQ">
+  	<meta name="author" content="Luis Gerardo">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<title>Contactos | Somijo Sureste</title>
+	
+	<!-- CSS Materialize -->
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<!-- CSS Externo -->
+	<link rel="stylesheet" href="css/estilo.css">
+
+	<!-- Libreria font-awesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Material Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+
+	<!-- Responsive
+	Formulario - Contactos
+	Elemento externo
+	Online y offline (usb o correo)
+	Titulo
+	Tags:
+		table
+		lista de definicion
+		lista ordenada
+		lista desordenada
+		div
+		header
+		nav
+		article
+		footer
+
+	Comentar -->
+
+<!-- [Start] Header -->
+	<header>
+		<nav class="blue darken-4">
+			<div class="nav-wrapper">
+				<img id="logo" class="responsive-img" src="img/somijo-logo.jpg" alt="Somijo">
+				<a href="index.html"  class="brand-logo">Somijo Sureste</a>
+				
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Sobre Nosotros</a></li>
+					<li><a href="multimedia.html">Multimedia</a></li>
+					<li><a href="contactos.html">Contactos</a></li>
+				</ul>
+				
+				
+				<ul class="side-nav" id="slide-out">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Sobre Nosotros</a></li>
+					<li><a href="multimedia.html">Multimedia</a></li>
+					<li><a href="contactos.html">Contactos</a></li>
+				</ul>
+<!--NavResponsive-->
+				<a href="#" data-activates="slide-out" class="right button-collapse"><i class="material-icons">menu</i></a>
+			</div>
+		</nav>
+<!-- [End] Header -->
+
+
+
+<!-- [Start] Section -->
+	<section>
+		<div class="container center">
+			<div class="row">
+				<div class="col s12">
+					<h1>Iglesia Metodista Libre Nación Santa</h1>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.1393076094587!2d-69.97162508541513!3d18.431982976688918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea5619af3bbd645%3A0xd1291d39259af39c!2sIglesia+Metodista+Libre+Nacion+Santa!5e0!3m2!1sen!2sdo!4v1489804788920" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+	
+			<div class="row">
+				<div class="col s12">
+					<h1>Somijo</h1>
+					<p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque officia hic voluptate ex eveniet molestiae, nisi alias quibusdam iusto totam tenetur laudantium incidunt! Assumenda iure, molestias quas aperiam hic voluptatem.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- [End] Section -->
+
+<hr>
+
+<!-- [Start] Section -->
+	<section>
+		<div class="container">
+			<h1 class="center">Contáctanos</h1>
+		    <form class="col s12">
+		      	<div class="row">
+		        	<div class="input-field col s6">
+		          		<input placeholder="Nombre" id="nombre" type="text" class="validate">
+		        	</div>
+		        	<div class="input-field col s6">
+		          		<input placeholder="Apellido" id="apellido" type="text" class="validate">
+		        	</div>
+		      	</div>
+		      	<div class="row">
+		        	<div class="input-field col s12">
+		          		<input placeholder="Email" id="email" type="email" class="validate">
+		        	</div>
+		      	</div>
+		      	<div class="row">
+		        	<div class="col s12 center-align">
+		        		<a href="#" class="btn-large blue darken-4">Enviar</a>
+		        	</div>
+		      	</div>
+		    </form>
+  		</div>
+	</section>
+<!-- [End] Section -->
+
+
+
+
+<!-- [Start] Footer -->
+	<footer class="page-footer blue darken-4">
+    	<div class="container">
+            <div class="row">
+            	<div class="col l6 s12">
+                	<h5 class="white-text">Somijo Sureste</h5>
+                	<p class="grey-text text-lighten-4">Iglesia Metodista Libre - Sociedad Misionera de Jovencitos Sureste.</p>
+              	</div>
+
+            </div>
+        </div>
+        <div class="footer-copyright">
+        	<div class="container">
+            	© 2017 Todos los derechos reservados.
+            	<a class="grey-text text-lighten-4 right" href="https://www.facebook.com/Sociedad-Misionera-de-Jovencitos-281872125170/" target="_blank"><i class="fa fa-facebook"></i></a>
+            	<a class="grey-text text-lighten-4 right" href="https://twitter.com/SomijoSureste" target="_blank"><i class="fa fa-twitter"></i></a>
+            
+            </div>
+        </div>
+    </footer>
+<!-- [End] Footer -->
+
+<!-- Adjuntando archivos JS -->
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$(".button-collapse").sideNav({
+		      menuWidth: 300, // Default is 300
+		      edge: 'right', // Choose the horizontal origin
+		      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+		      draggable: true // Choose whether you can drag to open on touch screens
+		    });
+			$('.dropdown-button').dropdown();
+		});
+	</script>	
+</body>
+</html>

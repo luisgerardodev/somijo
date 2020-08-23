@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Proyecto Final HTML5 SDQ">
+  	<meta name="keywords" content="HTML5,CSS3,SDQ">
+  	<meta name="author" content="Luis Gerardo">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<title>Multimedia | Somijo Sureste</title>
+	
+	<!-- CSS Materialize -->
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<!-- CSS Externo -->
+	<link rel="stylesheet" href="css/estilo.css">
+
+	<!-- Libreria font-awesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Material Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+
+	<!-- Responsive
+	Formulario - Contactos
+	Elemento externo
+	Online y offline (usb o correo)
+
+	Tags:
+		table
+		lista de definicion
+
+	Comentar -->
+
+<!-- [Start] Header -->
+	<header>
+		<nav class="blue darken-4">
+			<div class="nav-wrapper">
+				<img id="logo" class="responsive-img" src="img/somijo-logo.jpg" alt="Somijo">
+				<a href="index.html"  class="brand-logo">Somijo Sureste</a>
+				
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Sobre Nosotros</a></li>
+					<li><a href="multimedia.html">Multimedia</a></li>
+					<li><a href="contactos.html">Contactos</a></li>
+				</ul>
+				
+				
+				<ul class="side-nav" id="slide-out">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Sobre Nosotros</a></li>
+					<li><a href="multimedia.html">Multimedia</a></li>
+					<li><a href="contactos.html">Contactos</a></li>
+				</ul>
+<!--NavResponsive-->
+				<a href="#" data-activates="slide-out" class="right button-collapse"><i class="material-icons">menu</i></a>
+			</div>
+		</nav>
+	</header>
+<!-- [End] Header -->
+
+
+<!-- [Start] Section -->
+	<section>
+		<div class="container center">
+			<div class="row">
+				<article class="col s12">
+					<h1>Campamento INFLUYENTES 2016</h1>
+					<div class="video-container">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/QSAa5lyLZdw" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</article>
+			</div>
+		</div>
+<!-- [End] Section -->
+
+
+
+<!-- [Start] Footer -->
+	<footer class="page-footer blue darken-4">
+    	<div class="container">
+            <div class="row">
+            	<div class="col l6 s12">
+                	<h5 class="white-text">Somijo Sureste</h5>
+                	<p class="grey-text text-lighten-4">Iglesia Metodista Libre - Sociedad Misionera de Jovencitos Sureste.</p>
+              	</div>
+
+            </div>
+        </div>
+        <div class="footer-copyright">
+        	<div class="container">
+            	© 2017 Todos los derechos reservados.
+            	<a class="grey-text text-lighten-4 right" href="https://www.facebook.com/Sociedad-Misionera-de-Jovencitos-281872125170/" target="_blank"><i class="fa fa-facebook"></i></a>
+            	<a class="grey-text text-lighten-4 right" href="https://twitter.com/SomijoSureste" target="_blank"><i class="fa fa-twitter"></i></a>
+            
+            </div>
+        </div>
+    </footer>
+<!-- [End] Footer -->
+
+<!-- Adjuntando archivos JS -->
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$(".button-collapse").sideNav({
+		      menuWidth: 300, // Default is 300
+		      edge: 'right', // Choose the horizontal origin
+		      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+		      draggable: true // Choose whether you can drag to open on touch screens
+		    });
+			$('.dropdown-button').dropdown();
+		});
+	</script>
+</body>
+</html>

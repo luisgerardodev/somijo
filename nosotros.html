@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Proyecto Final HTML5 SDQ">
+  	<meta name="keywords" content="HTML5,CSS3,SDQ">
+  	<meta name="author" content="Luis Gerardo">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<title>Multimedia | Somijo Sureste</title>
+	
+	<!-- CSS Materialize -->
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<!-- CSS Externo -->
+	<link rel="stylesheet" href="css/estilo.css">
+
+	<!-- Libreria font-awesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Material Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+
+	<!-- Responsive
+	Formulario - Contactos
+	Elemento externo
+	Online y offline (usb o correo)-->
+
+<!-- [Start] Header -->
+	<header>
+		<nav class="blue darken-4">
+			<div class="nav-wrapper">
+				<img id="logo" class="responsive-img" src="img/somijo-logo.jpg" alt="Somijo">
+				<a href="index.html"  class="brand-logo">Somijo Sureste</a>
+				
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Sobre Nosotros</a></li>
+					<li><a href="multimedia.html">Multimedia</a></li>
+					<li><a href="contactos.html">Contactos</a></li>
+				</ul>
+				
+				
+				<ul class="side-nav" id="slide-out">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Sobre Nosotros</a></li>
+					<li><a href="multimedia.html">Multimedia</a></li>
+					<li><a href="contactos.html">Contactos</a></li>
+				</ul>
+<!--NavResponsive-->
+				<a href="#" data-activates="slide-out" class="right button-collapse"><i class="material-icons">menu</i></a>
+			</div>
+		</nav>
+	</header>
+<!-- [End] Header -->
+
+
+<!-- [Start] Section -->
+	<section>
+		<div class="container center">
+			<div class="row">
+				<article class="col s12">
+					<h1>Sobre Nosotros</h1>
+					<br>
+					<div class="divider"></div>
+					<dl>
+						<dt><h2>Misión</h2></dt>
+						<dd class="flow-text">Hacer conocer a toda persona en todas partes del mundo el llamado de Dios a la salvación por medio de la fe, el perdón y la santidad en Jesucristo e invitarles a entrar a la membrecía y preparar a todo creyente para el ministerio y fiel cumplimiento del propósito de Dios para su vida.</dd>
+
+						<dt><h2>Visión</h2></dt>
+						<dd class="flow-text">Alcanzar a todas las personas en la tierra a través de la predicación del evangelio, discipularlas, bautizarlas e integrarlas a la obra de Dios con el propósito de que lleguen a ser creyentes sanos, y compasivos, que pongan en practica las enseñanzas de Cristo, dispuestos a servir antes que ser servidos y a extender la mano a los mas necesitados.</dd>
+
+						<dt><h2>Lema</h2></dt>
+						<dd class="flow-text">La Iglesia Metodista Libre es indivisible.</dd>
+					</dl>
+				</article>
+			</div>
+		</div>
+<!-- [End] Section -->
+
+<!-- [Start] Section -->
+	<section>
+		<div class="container center">
+			<div class="row">
+				<article class="col s12">
+					
+				</article>
+			</div>
+		</div>
+<!-- [End] Section -->
+
+<!-- [Start] Section -->
+	<section>
+		<div class="container center">
+			<div class="row">
+				<article class="col s12">
+					
+				</article>
+			</div>
+		</div>
+<!-- [End] Section -->
+
+
+
+
+
+
+<!-- [Start] Footer -->
+	<footer class="page-footer blue darken-4">
+    	<div class="container">
+            <div class="row">
+            	<div class="col l6 s12">
+                	<h5 class="white-text">Somijo Sureste</h5>
+                	<p class="grey-text text-lighten-4">Iglesia Metodista Libre - Sociedad Misionera de Jovencitos Sureste.</p>
+              	</div>
+
+            </div>
+        </div>
+        <div class="footer-copyright">
+        	<div class="container">
+            	© 2017 Todos los derechos reservados.
+            	<a class="grey-text text-lighten-4 right" href="https://www.facebook.com/Sociedad-Misionera-de-Jovencitos-281872125170/" target="_blank"><i class="fa fa-facebook"></i></a>
+            	<a class="grey-text text-lighten-4 right" href="https://twitter.com/SomijoSureste" target="_blank"><i class="fa fa-twitter"></i></a>
+            
+            </div>
+        </div>
+    </footer>
+<!-- [End] Footer -->
+
+<!-- Adjuntando archivos JS -->
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$(".button-collapse").sideNav({
+		      menuWidth: 300, // Default is 300
+		      edge: 'right', // Choose the horizontal origin
+		      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+		      draggable: true // Choose whether you can drag to open on touch screens
+		    });
+			$('.dropdown-button').dropdown();
+		});
+	</script>
+</body>
+</html>
